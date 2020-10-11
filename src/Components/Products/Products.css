@@ -1,3 +1,6 @@
 .products .card{
     width: 18rem;
 }
+.products ul{
+    list-style: none;
+}
