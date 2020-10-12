@@ -10,16 +10,16 @@ const NavBar = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                        <a className="nav-link" href="#">Home</a>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item active">
                         <a className="nav-link" href="#" onClick={() => alert('This section will be activated at next update')}>Features</a>
                     </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#" onClick={() => alert('This section will be activated at next update')}>Pricing</a>
+                    <li className="nav-item active">
+                        <a className="nav-link" href="#" onClick={() => alert('This section will be activated at next update')}>Components</a>
                     </li>
-                    <li className="nav-item">
-                        <a className="nav-link disabled" href="#" onClick={() => alert('This section will be activated at next update')} tabIndex="-1" aria-disabled="true">Disabled</a>
+                    <li className="nav-item active">
+                        <a className="nav-link disabled" href="#" onClick={() => alert('This section will be activated at next update')}>Accessories</a>
                     </li>
                 </ul>
             </div>

@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Filter.css'
 
 const Filter = ({ setProductFilter }) => {
+    const [productPrice, setProductPrice] = useState('10000')
     const setFormData = (e) => {
         const name = e.target.name
         const value = e.target.value
+        if (name === 'price') setProductPrice(value)
 
         setProductFilter({
             [name]: value
@@ -33,6 +35,10 @@ const Filter = ({ setProductFilter }) => {
                     <option value="4GB">4GB</option>
                     <option value="8GB">8GB</option>
                 </select>
+
+                <label>10000-30000 tk &nbsp;</label>
+                <input name="price" type="range" min='10000' max='30000' onChange={setFormData} />
+                <label> &nbsp;Now:{productPrice}></label>
             </form>
         </section>
     );

@@ -1,3 +1,8 @@
 .filter select{
     width: 100px;
 }
+.filter select{
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}

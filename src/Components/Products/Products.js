@@ -10,7 +10,7 @@ const Products = () => {
     const [[key], [value]] = [Object.keys(productFilter), Object.values(productFilter)]
 
     useEffect(() => {
-        const productArray = fakeData.filter(data => data.[key] === value)
+        const productArray = fakeData.filter(data => data.[key] === value || data.[key] >= value)
         setProductInfo(productArray)
     }, [key, value])
 
@@ -42,6 +42,7 @@ const Products = () => {
                         })
                     }
                 </div>
+                <div className="background"></div>
             </section>
         </>
     );

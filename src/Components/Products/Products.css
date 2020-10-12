@@ -4,3 +4,13 @@
 .products ul{
     list-style: none;
 }
+.background{
+    position: fixed !important;
+    z-index: -11;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://o.aolcdn.com/images/dims?quality=95&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-06%2F64f41f90-b654-11ea-bdfb-c07b57334bf4&client=amp-blogside-v2&signature=c115b10f023e2c6af037e22ac4aa83ce9af03f8b');
+    background-attachment: fixed;
+}
