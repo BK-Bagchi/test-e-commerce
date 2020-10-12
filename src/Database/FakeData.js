@@ -15,7 +15,7 @@ const fakeData = [
         processor: "Intel Core i3",
         RAM: '4GB',
         GPU: '2GB',
-        price: '10000'
+        price: '15000'
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const fakeData = [
         processor: "Intel Core i3",
         RAM: '4GB',
         GPU: '2GB',
-        price: '10000'
+        price: '17000'
     },
     {
         id: 4,
@@ -42,7 +42,7 @@ const fakeData = [
         processor: "Intel Core i5",
         RAM: '6GB',
         GPU: '4GB',
-        price: '20000'
+        price: '24000'
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ const fakeData = [
         processor: "Intel Core i5",
         RAM: '6GB',
         GPU: '4GB',
-        price: '20000'
+        price: '28000'
     },
     {
         id: 7,
@@ -69,7 +69,7 @@ const fakeData = [
         processor: "Intel Core i7",
         RAM: '8GB',
         GPU: '8GB',
-        price: '30000'
+        price: '35000'
     },
     {
         id: 9,
@@ -78,7 +78,7 @@ const fakeData = [
         processor: "Intel Core i7",
         RAM: '8GB',
         GPU: '8GB',
-        price: '30000'
+        price: '41000'
     }
 ]
 

@@ -10,7 +10,10 @@ const Products = () => {
     const [[key], [value]] = [Object.keys(productFilter), Object.values(productFilter)]
 
     useEffect(() => {
-        const productArray = fakeData.filter(data => data.[key] === value || data.[key] >= value)
+        const productArray = fakeData.filter(data => {
+            if (key === 'price') return data.[key] >= value
+            else return data.[key] === value
+        })
         setProductInfo(productArray)
     }, [key, value])
 
